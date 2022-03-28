@@ -268,4 +268,39 @@ width: 237px;
     left: 208px;
     bottom: 274px;
     width: 110px;
+    ba
+  }
+  .icon_dermatologically{
+    position: relative;
+    margin: 0 auto;
+    top: -75px;
+    width: 123px;
+  }
+  .soft_mocznik_procent_42{
+    font-size: 30px;
+  }
+  .soft_mocznik_procent_43{
+    font-size: 30px;
+  }
+  .title_produkt_nappa{
+    font-family: Circe Rounded Extra Bold;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .icon_pamietaj{
+    position: relative;
+    top: -175px;
+    width: 102px;
+    left: 70px;
+  }
+  .skladniki_aktywne{
+    font-family: Circe Rounded Extra Bold;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-top: 30px;
   }
