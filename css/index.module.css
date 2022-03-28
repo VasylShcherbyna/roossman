@@ -1,0 +1,271 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+@media screen and (min-width: 480px) {
+  .main {
+    width: 480px;
+    
+
+    
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    width: 768px;
+    padding-right: 34px;
+    padding-left: 34px;
+  }
+}
+
+@media screen and (min-width: 1200px){
+    .main {
+        width: 1200px;
+        padding-right: 115px;
+    padding-left: 115px;
+        
+        
+    }
+}
+
+.stopa {
+    width: 100%;
+    height: auto;
+  }
+
+  .main{
+  padding: 0 30px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(236, 198, 198);
+  padding-bottom: 3000px;
+  }
+
+  .img-stopa{
+    width: 900px;
+    float: right;
+  }
+  .logo{
+    width: 100%;
+    height: auto;
+  }
+
+  .box-logo{
+      width: 300px;
+      top: 20px;
+      padding-top: 136px;
+  }
+
+  .box_icon_odkryj_mnie{
+    width: 76px;
+    padding-top: 219px;
+    padding-left: 75px;
+  }
+
+  .box_3_odnośnik{
+    position: absolute;
+    width: 456px;
+    top: 441px;
+    left: 518px;
+  }
+  .text_pielegnacje_stop{
+    width: 180px;
+    padding-top: 44px;
+    padding-left: 94px;
+  }
+  .info_pielegnacii{
+    font-family: SANS-SERIF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .string_troska{
+    font-family: Circe Rounded Extra Bold; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .box_4_odnośnik_2{
+    position: absolute;
+    width: 82px;
+    right: 491px;
+    top: 551px;
+  }
+  .info_stopy{
+    position: absolute;
+    font-family: SANS-SERIF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.3;
+    right: 587px;
+    width: 253px;
+    top: 774px;
+  }
+  .string_profer_zabieg{
+    font-family: Circe Rounded Extra Bold;
+    padding-top: 258px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .box_logo_nappa{
+    width: 182px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+  .box_18_foto_tryptyk{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-left: 77px;
+  }
+  .string_krok_1{
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 13px;
+    position: relative;
+    bottom: 33px;
+    left: 45px;
+  }
+  .string_krok_2{
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 13px;
+    position: relative;
+    bottom: 51px;
+    left: 393px;
+  }
+  .string_krok_3{
+    font-family: Arial;
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 13px;
+    position: relative;
+    bottom: 67px;
+    left: 733px;
+  }
+  .string_linie_nappy{
+    font-family: Circe Rounded Extra Bold;
+    padding-top: 33px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .box_22_ramki_z_produktami{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+  .list_produkt{
+    position: relative;
+    top: -393px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 4vh;
+    width: 100%;
+    list-style-type: none;
+  }
+  .produkt-li{
+    font-family: sans-serif;
+    width: 239px;
+    font-size: 12px;
+  }
+  .list1_produkt{
+    padding-left: 53px;
+  }
+  .list2_produkt{
+    padding-left: 193px;
+  }
+  .list3_produkt{
+    padding-left: 197px;
+  }
+
+  .title_stezenie_mocznika{
+    font-family: Circe Rounded Extra Bold;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  .box_produkt_soft_mocznik{
+    display: flex;
+    padding-left: 177px;
+    padding-top: 60px;
+    width: 673px
+    
+  }
+
+  .produkt_1_soft_mocznik{
+width: 237px;
+  }
+
+  .produkt_2_soft_mocznik{
+    margin-right: auto;
+    width: 300px;
+    padding-left: 350px;
+  }
+  .logo_43{
+    position: relative;
+    left: 174px;
+    bottom: 262px;
+  }
+  .logo_42{
+    position: relative;
+    left: 157px;
+    bottom: 251px;
+  }
+  .info_soft_mocznik_42{
+    position: relative;
+    left: 195px;
+    bottom: 263px;
+    width: 120px;
+  }
+  .info_soft_mocznik_43{
+    position: relative;
+    left: 208px;
+    bottom: 274px;
+    width: 110px;
+  }
