@@ -70,8 +70,7 @@ body {
   padding: 0 30px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(236, 198, 198);
-  padding-bottom: 3000px;
+  
   }
 
   .img-stopa{
@@ -342,91 +341,95 @@ width: 237px;
     left: 75px;
 }
 .list_skladniki{
-    margin-left: 20px;
+    margin: 25px;
     padding-bottom: 25px;
     height: 330px;
   }
  
+.box_foto{
+  display: flex;
+}
+.img_podolg{
+  width: 680px;
+    margin-left: auto;
+    margin-right: 60px;
+}
+.icon_play{
+  width: 120px;
+  margin-left: 40px;
+}
+.img_35_odnosnik{
+  position: relative;
+  bottom: 293px;
+  width: 368px;
+  left: 93px;
+}
 
-
-   .title_1_skladniki{
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 1.3;
-    text-align: center;
-    position: absolute;
-    left: 37px;
-    top: 25px;
-  }
-  .title_2_skladniki{
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 1.3;
-    text-align: center;
-    position: absolute;
-    left: 291px;
-    top: 25px;
-  }
- .title_3_skladniki{
-  font-size: 25px;
+.play_info_podolog{
+  width: 180px;
+    position: relative;
+    bottom: 280px;
+    left: 92px;
+}
+.play_info_podolog h2{
+  font-family: sans-serif;
+  font-size: 27px;
   font-weight: 700;
   line-height: 1.3;
-  text-align: center;
-  position: absolute;
-  left: 618px;
-  top: 25px;
+  padding-bottom: 5px;
+}
+.icon_video{
+  width: 36px;
+  position: relative;
+  bottom: 363px;
+  left: 226px;
+}
+.list_info_video{
+  position: relative;
+    top: -609px;
+  display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.list_video{
+  font-size: 19px;
+  margin: 24px 62px;
+  padding-bottom: 25px;
+  width: 275px;
+  cursor: pointer;
+}
+.img_podzial_ramki_filmy{
+  position: relative;
+  bottom: 184px;
+  margin: auto;
+  width: 1068px;
+}
+.footer_icon_play{
+  width: 40px;
+  position: relative;
+  bottom: 78px;
+  left: -45px;
+}
+  .footer_icon_play_2{
+    width: 40px;
+    position: relative;
+    bottom: 56px;
+    left: -45px;
   }
-  .title_4_skladniki{
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 1.3;
-    text-align: center;
-    position: absolute;
-    left: 940px;
-    top: 25px;
-    }
+   .img_logo_nappa_male{
+     width: 150px;
+   }
 
-    .list_a_skladniki_aktywne{
-      display: flex;
-      position: relative;
-      bottom: 240px;
-      left: 54px;
-    }
-    .title_a_1_skladniki{
-      font-size: 35px;
-      font-weight: 700;
-      line-height: 1.3;
-      text-align: center;
-      position: absolute;
-      left: 30px;
-      top: 25px;
-    }
-    .title_a_2_skladniki{
-      font-size: 35px;
-      font-weight: 700;
-      line-height: 1.3;
-      text-align: center;
-      position: absolute;
-      left: 299px;
-      top: 25px;
-    }
-   .title_a_3_skladniki{
-    font-size: 35px;
-    font-weight: 700;
-    line-height: 1.3;
-    text-align: center;
+   
+   #myVideo {
     position: absolute;
-    left: 603px;
-    top: 25px;
-    }
-    .title_a_4_skladniki{
-      font-size: 35px;
-      font-weight: 700;
-      line-height: 1.3;
-      text-align: center;
-      position: absolute;
-      left: 881px;
-      top: 25px;
-      }
+    top: 90;
+    bottom: -4613px;
+    left: 813px;
+    max-width: 680px;
+    width: 100%;
+    height: 547px;
+    margin: 0 auto;
+}
 
 
