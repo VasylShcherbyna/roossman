@@ -434,5 +434,7 @@ width: 237px;
     height: 547px;
     margin: 0 auto;
 }
-
+.box_info_video{
+  height: 0;
+}
 
