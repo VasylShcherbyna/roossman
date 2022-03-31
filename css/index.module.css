@@ -26,7 +26,7 @@ img {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -164,6 +164,7 @@ body {
     position: relative;
     bottom: 33px;
     left: 45px;
+    width: 400px;
   }
   .string_krok_2{
     font-family: Arial;
@@ -173,6 +174,7 @@ body {
     position: relative;
     bottom: 51px;
     left: 393px;
+    width: 400px;
   }
   .string_krok_3{
     font-family: Arial;
@@ -182,6 +184,7 @@ body {
     position: relative;
     bottom: 67px;
     left: 733px;
+    width: 400px;
   }
   .string_linie_nappy{
     font-family: Circe Rounded Extra Bold;
