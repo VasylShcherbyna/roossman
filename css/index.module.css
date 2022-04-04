@@ -424,10 +424,10 @@ padding-right: 191px;
   }
 
   .icon_dermatologically{
-    position: relative;
-    margin: 0 auto;
-    top: -75px;
-    width: 123px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 98px;
   }
   .soft_mocznik_procent_42{
     font-size: 36px;
@@ -438,21 +438,20 @@ padding-right: 191px;
   font-weight: 500;
   }
   .title_produkt_nappa{
-    font-family: Circe Rounded Extra Bold;
-    padding-top: 15px;
+    font-family: CirceRounded;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
     text-align: center;
-    font-size: 44px;
-    font-weight: 700;
-    line-height: 1.3;
+    color: #333;
   }
-  .icon_pamietaj{
-    position: relative;
-    top: -175px;
-    width: 102px;
-    left: 70px;
-  }
+ 
   .img_skladniki{
-    width: 250px;
+    width: 177px;
+  height: 233px;
   }
 
   .box_41_ramki_calosc{
@@ -460,64 +459,76 @@ padding-right: 191px;
     margin-right: 40px;
   }
   .skladniki_aktywne{
-    font-family: Circe Rounded Extra Bold;
-    text-align: center;
-    font-size: 29px;
-    font-weight: 700;
-    line-height: 1.3;
-    padding-top: 30px;
+    font-family: CirceRounded;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+  margin-top: 10px;
   }
 
   .list_skladniki_aktywne{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
     
   }
   .title_list{
-    font-family: Circe Rounded Extra Bold;
-    position: relative;
-    bottom: 210px;
+    font-family: CirceRounded;
+    font-size: 18px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
     text-align: center;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 1.3;
+    color: #333;
+    position: relative;
+    bottom: 160px;
   }
 .paragraph_list_skladniki{
   position: relative;
-    bottom: 188px;
-    left: 59px;
-    font-weight: 700;
+    bottom: 146px;
+    left: 21px;
+    font-weight: 500;
     line-height: 1.3;
 }
 .list_features{
   position: relative;
-    bottom: 184px;
-    left: 75px;
+    bottom: 144px;
+    left: 40px;
+    font-weight: 500;
+}
+.list_features li::marker{
+  color: black;
 }
 .list_skladniki{
-    margin: 25px;
+    margin: 20px;
     padding-bottom: 25px;
-    height: 330px;
+    height: 217px;
   }
  
 .box_foto{
   display: flex;
+  justify-content: space-between;
 }
 .img_podolg{
-  width: 680px;
-    margin-left: auto;
-    margin-right: 60px;
+  width: 492px; 
 }
 .icon_play{
-  width: 120px;
-  margin-left: 40px;
+  width: 77px;
+  margin: 130px 20px 0px 110px;
 }
 .img_35_odnosnik{
-  position: relative;
-  bottom: 293px;
-  width: 368px;
-  left: 93px;
+  width: 285px;
+  height: 77px;
+  margin-top: 130px;
+  
 }
 
 .play_info_podolog{
@@ -540,29 +551,34 @@ padding-right: 191px;
   left: 226px;
 }
 .list_info_video{
-  position: relative;
-    top: -609px;
   display: flex;
     flex-wrap: wrap;
     list-style-type: none;
 }
 .list_video{
-  font-size: 19px;
-  margin: 24px 62px;
-  padding-bottom: 25px;
-  width: 275px;
-  cursor: pointer;
+  width: 231px;
+  margin: 49px 45px -30px 15px;
+  font-family: DMSans;
+  font-weight: normal;
 }
-.img_podzial_ramki_filmy{
-  position: relative;
-  bottom: 184px;
-  margin: auto;
-  width: 1068px;
+.title_video{
+  font-family: CirceRounded;
+  font-size: 16px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+  width: 231px;
+  height: 74px;
 }
+
 .footer_icon_play{
   width: 40px;
   position: relative;
-  bottom: 78px;
+  bottom: 60px;
   left: -45px;
 }
   .footer_icon_play_2{
