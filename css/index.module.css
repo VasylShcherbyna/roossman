@@ -22,7 +22,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 body {
@@ -46,17 +46,16 @@ body {
 @media screen and (min-width: 768px) {
   .main {
     width: 768px;
-    padding-right: 34px;
-    padding-left: 34px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 980px){
     .main {
-        width: 1200px;
-        padding-right: 115px;
-    padding-left: 115px;
-        
+        width: 980px;
+        padding: 0 25px 48px;
+
         
     }
 }
@@ -67,14 +66,14 @@ body {
   }
 
   .main{
-  padding: 0 30px;
+  padding: 0 25px;
   margin-left: auto;
   margin-right: auto;
   
   }
 
   .img-stopa{
-    width: 900px;
+    width: 560px;
     float: right;
   }
   .logo{
@@ -83,69 +82,90 @@ body {
   }
 
   .box-logo{
-      width: 300px;
-      top: 20px;
-      padding-top: 136px;
+      width: 270px;
+      padding-top: 55px;
+      padding-left: 25px;
   }
 
   .box_icon_odkryj_mnie{
-    width: 76px;
-    padding-top: 219px;
-    padding-left: 75px;
+    width: 77px;
+    margin: 166px 6px 22px 102px;
   }
 
   .box_3_odnośnik{
     position: absolute;
-    width: 456px;
-    top: 441px;
-    left: 518px;
+    width: 405px;
+    height: 77px;
+    top: 286px;
+    left: 668px;
   }
   .text_pielegnacje_stop{
-    width: 180px;
-    padding-top: 44px;
-    padding-left: 94px;
+    width: 229px;
+  height: 204px;
+  margin: 22px 21px 149px 102px;
+  font-family: DMSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
   }
-  .info_pielegnacii{
-    font-family: SANS-SERIF;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 1.3;
+
+  .text-style-1{
+    font-family: CirceRounded;
+    font-size: 32px;
+    font-weight: 800;
   }
+  .text-style-2{
+    font-size: 21px;
+  font-weight: 500;
+  }
+
   .string_troska{
-    font-family: Circe Rounded Extra Bold; 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 1.3;
+    font-family: CirceRounded;
+    font-weight: bold;
   }
   .box_4_odnośnik_2{
     position: absolute;
-    width: 82px;
-    right: 491px;
-    top: 551px;
+    width: 77px;
+    right: 551px;
+    top: 350px;
   }
   .info_stopy{
     position: absolute;
-    font-family: SANS-SERIF;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 1.3;
     right: 587px;
-    width: 253px;
-    top: 774px;
+    top: 553px;
+    width: 300px;
+    height: 85px;
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
   .string_profer_zabieg{
-    font-family: Circe Rounded Extra Bold;
-    padding-top: 258px;
+    width: 795px;
+    height: 36px;
+    margin: auto;
+    font-family: CirceRounded;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
     text-align: center;
-    font-size: 29px;
-    font-weight: 700;
-    line-height: 1.3;
+    color: #333;
   }
   .box_logo_nappa{
-    width: 182px;
+    width: 167px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -156,99 +176,210 @@ body {
     padding-top: 40px;
     padding-left: 77px;
   }
+
+  .box_krok_1_2_3{
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .box_krok_1_2_3 div{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
+  .img7_icon{
+    width: 51px;
+    height: 51px;
+    margin: 8px 14.9px 8px 0;
+  }
+  .img8_icon{
+    width: 51px;
+    height: 51px;
+    margin: 8px 14.9px 8px 0;
+  }
+  .img9_icon{ 
+     width: 51px;
+    height: 51px;
+    margin: 8px 14.9px 0 0;
+  }
+
   .string_krok_1{
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 1.3;
-    font-size: 13px;
-    position: relative;
-    bottom: 33px;
-    left: 45px;
-    width: 400px;
+    width: 150.5px;
+    height: 27.3px;
+    margin: 12px 0 19.7px 14.9px;
+    font-family: CirceRounded;
+    font-size: 26px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
   .string_krok_2{
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 1.3;
-    font-size: 13px;
-    position: relative;
-    bottom: 51px;
-    left: 393px;
-    width: 400px;
+    width: 150.5px;
+    height: 27.3px;
+    margin: 20px 0 19.7px 14.9px;
+    font-family: CirceRounded;
+    font-size: 26px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
   .string_krok_3{
-    font-family: Arial;
-    font-weight: 500;
-    line-height: 1.3;
-    font-size: 13px;
-    position: relative;
-    bottom: 67px;
-    left: 733px;
-    width: 400px;
+    width: 137.1px;
+    height: 27.3px;
+    margin: 20px 13.4px 11.7px 14.9px;
+    font-family: CirceRounded;
+    font-size: 26px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
   .string_linie_nappy{
-    font-family: Circe Rounded Extra Bold;
-    padding-top: 33px;
-    text-align: center;
-    font-size: 29px;
-    font-weight: 700;
-    line-height: 1.3;
+  font-family: CirceRounded;
+  padding-top: 60px;
+  font-size: 32px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333;
+
   }
   .box_22_ramki_z_produktami{
+    height: 412px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 40px;
   }
+  
+  .box_22_ramki{
+    display: flex;
+    justify-content: space-between;
+  }
+  .box_22_ramki img{
+    width: 272px;
+    height: 411px;
+    padding: 0 20px 15px;
+  }
   .list_produkt{
     position: relative;
-    top: -393px;
+    justify-content: space-between;
+    padding-left: 57px;
+    padding-right: 57px;
+    top: -366px;
     display: flex;
     margin: 0;
-    padding: 0;
-    height: 4vh;
-    width: 100%;
     list-style-type: none;
   }
   .produkt-li{
-    font-family: sans-serif;
-    width: 239px;
-    font-size: 12px;
-    line-height: 1.4;
+    width: 206px;
+    height: 179px;
+    margin: 0 0 30px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
   .list1_produkt{
-    padding-left: 53px;
+    width: 206px;
+    height: 179px;
+    margin: 0 0 30px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
   .list2_produkt{
-    padding-left: 193px;
+    width: 206px;
+    height: 179px;
+    margin: 0 0 20px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
   .list3_produkt{
-    padding-left: 197px;
+    width: 206px;
+    height: 179px;
+    margin: 0 0 30px;
+    font-family: DMSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+  }
+
+  .box_produkt_hydro_soft{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    bottom: 374px;
+    padding-left: 117px;
+    padding-right: 117px;
   }
 
   .title_stezenie_mocznika{
-    font-family: Circe Rounded Extra Bold;
-    padding-top: 100px;
+    font-family: CirceRounded;
+    font-size: 32px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
     text-align: center;
-    font-size: 29px;
-    font-weight: 700;
-    line-height: 1.3;
+    color: #333;
+    padding-top: 60px;
   }
   .box_produkt_soft_mocznik{
     display: flex;
-    padding-left: 177px;
+    justify-content: center;
     padding-top: 60px;
-    width: 673px
+    height: 250px;
     
   }
+.produkt_soft{
+  display: flex;
 
+}
   .produkt_1_soft_mocznik{
-width: 237px;
+padding-right: 191px;
   }
 
   .produkt_2_soft_mocznik{
     margin-right: auto;
     width: 300px;
-    padding-left: 350px;
   }
   .logo_43{
     position: relative;
@@ -261,16 +392,34 @@ width: 237px;
     bottom: 251px;
   }
   .info_soft_mocznik_42{
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
     position: relative;
     left: 195px;
-    bottom: 263px;
-    width: 120px;
+    bottom: 299px;
+    width: 142px;
   }
   .info_soft_mocznik_43{
     position: relative;
     left: 208px;
-    bottom: 274px;
+    bottom: 313px;
     width: 110px;
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
     
   }
 
@@ -281,10 +430,12 @@ width: 237px;
     width: 123px;
   }
   .soft_mocznik_procent_42{
-    font-size: 30px;
+    font-size: 36px;
+  font-weight: 500;
   }
   .soft_mocznik_procent_43{
-    font-size: 30px;
+    font-size: 36px;
+  font-weight: 500;
   }
   .title_produkt_nappa{
     font-family: Circe Rounded Extra Bold;
