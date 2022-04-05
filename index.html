@@ -324,14 +324,15 @@ oraz nadmiernym rogowaceniem.
     </div>
     
 <div class="img_podolg">
-    <img src="./img/36_foto_podolg.jpg" alt="36_foto_podolg">
+    
+    <video id="myVideo" controls poster="/img/36_foto_podolg.jpg">
+        <source id="mp4" src="./img/36_foto_podolg.png" type="video/mp4">
+        <source id="webm" src="https://www.uiuxwebdev.com/projects/videoGallery/blossoms.Webm" type="video/webm">
+    </video>
    
 </div>
 
-<!-- <video id="myVideo" controls poster="https://www.uiuxwebdev.com/projects/videoGallery/blossoms.jpg">
-    <source id="mp4" src="./img/36_foto_podolg.png" type="video/mp4">
-    <source id="webm" src="https://www.uiuxwebdev.com/projects/videoGallery/blossoms.Webm" type="video/webm">
-</video> -->
+
 
  </div>
 
@@ -367,7 +368,7 @@ oraz nadmiernym rogowaceniem.
 
             </li>
 
-            <li class="list_video">
+            <li class="list_video" onclick="playVid('two')">
                 
 <img class="footer_icon_play" src="./img/37_icon_play.png" alt="37_icon_play">
 
@@ -435,9 +436,6 @@ używać?</div>
 
 
 </div> 
-
-
-
 
 </div> 
 <script src="./video.js"></script>       

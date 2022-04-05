@@ -11,7 +11,7 @@ function playVid(ID) {
 			webmUrl = "https://www.uiuxwebdev.com/projects/videoGallery/blossoms.Webm";
 			break;
 		case "two":
-			mp4Url = "https://www.uiuxwebdev.com/projects/videoGallery/splash.mp4";
+			mp4Url = "https://youtu.be/FHBziuKCHNg";
 			webmUrl = "https://www.uiuxwebdev.com/projects/videoGallery/splash.Webm";
 			break;
 		case "three":

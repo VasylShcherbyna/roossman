@@ -43,22 +43,14 @@ body {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .main {
-    width: 768px;
-    padding-right: 25px;
-    padding-left: 25px;
-  }
-}
 
-@media screen and (min-width: 980px){
+
+@media screen and (min-width: 480px){
     .main {
         width: 980px;
-        padding: 0 25px 48px;
-
-        
+        padding: 0 25px 48px; 
     }
-}
+  
 
 .stopa {
     width: 100%;
@@ -76,6 +68,7 @@ body {
     width: 560px;
     float: right;
   }
+
   .logo{
     width: 100%;
     height: auto;
@@ -582,6 +575,7 @@ padding-right: 191px;
   display: flex;
   justify-content: space-between;
   width: 293px;
+  cursor: pointer;
 
   font-family: DMSans;
   font-weight: normal;
@@ -627,16 +621,93 @@ padding-right: 191px;
 
    
    #myVideo {
-    position: absolute;
-    top: 90;
-    bottom: -4613px;
-    left: 813px;
-    max-width: 680px;
-    width: 100%;
-    height: 547px;
+    position: relative;
+    bottom: 28px;
+    max-width: 492px;
+    /* width: 100%; */
+    height: 383px;
     margin: 0 auto;
 }
 .box_info_video{
   height: 0;
 }
 
+}
+/* -------------------------------------------------------------------------- */
+
+/* @media screen and (min-width: 680px) {
+  .main {
+    width: 768px;
+    padding: 0 25px 48px;
+  }
+}
+@media screen and (min-width: 680px) {
+    width: 436px;
+}
+  .img-stopa {
+    width: 436px;
+}
+.box_icon_odkryj_mnie {
+  margin: 104px 6px 22px 112px;
+  width: 53px;
+}
+.box_3_odnośnik {
+  width: 291px;
+  height: 76px;
+  top: -74px;
+  left: 194px;
+}
+.box_4_odnośnik_2 {
+  width: 77px;
+  left: 617px;
+  bottom: 350px;
+}
+.info_stopy {
+  left: 363px;
+  top: -389px;
+}
+.string_profer_zabieg{
+  font-size: 28px;
+}
+.box_18_foto_tryptyk {
+  width: 650px;
+  padding-left: 50px;
+}
+.box_22_ramki img {
+  width: 216px;
+}
+.list1_produkt {
+  width: 189px;
+  margin: 0 26px 0px -9px;
+}
+.list2_produkt {
+  width: 189px;
+}
+.list3_produkt {
+  width: 186px;
+  margin: 0 -31px 0px 26px;
+}
+.box_produkt_hydro_soft {
+  padding-left: 100px;
+    padding-right: 100px;
+}
+.produkt_2_soft_mocznik {
+  width: 180px;
+}
+.produkt_1_soft_mocznik {
+  width: 180px;
+}
+.info_soft_mocznik_43{
+  bottom: 295px;
+}
+.info_soft_mocznik_42{
+  bottom: 288px;
+}
+.img_35_odnosnik{
+  margin-top: 132px;
+  margin-left: 77px;
+}
+#myVideo{
+  max-width: 386px;
+}
+ */
