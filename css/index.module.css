@@ -553,14 +553,24 @@ padding-right: 191px;
 .list_info_video{
   display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     list-style-type: none;
+    padding-top: 40px;
 }
 .list_video{
-  width: 231px;
-  margin: 49px 45px -30px 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 293px;
+
   font-family: DMSans;
   font-weight: normal;
 }
+.list_video div{
+  width: 231px;
+  height: 74px;
+  margin: 21px;
+  
+} 
 .title_video{
   font-family: CirceRounded;
   font-size: 16px;
@@ -576,10 +586,10 @@ padding-right: 191px;
 }
 
 .footer_icon_play{
-  width: 40px;
-  position: relative;
-  bottom: 60px;
-  left: -45px;
+  width: 43px;
+  height: 43px;
+  padding-top: 20px;
+  
 }
   .footer_icon_play_2{
     width: 40px;
@@ -588,7 +598,10 @@ padding-right: 191px;
     left: -45px;
   }
    .img_logo_nappa_male{
-     width: 150px;
+    width: 167px;
+    height: 44px;
+    padding-left: 65px;
+    padding-top: 15px;
    }
 
    
