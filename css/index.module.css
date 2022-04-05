@@ -1,4 +1,10 @@
 @charset "UTF-8";
+@import url("https://p.typekit.net/p.css?s=1&k=phs7mpa&ht=tk&f=32217.32219.32220&a=104500474&app=typekit&e=css");
+@import url("https://use.typekit.net/phs7mpa.css");
+
+  
+  .tk-circe-rounded { font-family: "circe-rounded",sans-serif; 
+  }
 html {
   box-sizing: border-box;
 }
@@ -509,6 +515,7 @@ padding-right: 191px;
     margin: 20px;
     padding-bottom: 25px;
     height: 217px;
+    font-family: DMSans;
   }
  
 .box_foto{
