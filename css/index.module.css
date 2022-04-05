@@ -93,25 +93,27 @@ body {
   }
 
   .box_3_odnośnik{
-    position: absolute;
+    position: relative;
     width: 405px;
     height: 77px;
-    top: 286px;
-    left: 668px;
+    top: -101px;
+    left: 213px;
   }
   .text_pielegnacje_stop{
+    position: relative;
+    bottom: 98px;
+    left: 10px;
     width: 229px;
-  height: 204px;
-  margin: 22px 21px 149px 102px;
-  font-family: DMSans;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: left;
-  color: #333;
+    margin: 22px 21px 0 102px;
+    font-family: DMSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
   }
 
   .text-style-1{
@@ -129,15 +131,18 @@ body {
     font-weight: bold;
   }
   .box_4_odnośnik_2{
-    position: absolute;
+    position: relative;
     width: 77px;
-    right: 551px;
-    top: 350px;
+    left: 816px;
+    bottom: 364px; 
+  }
+  .box_odnosnik_2_infoStopy{
+    height: 0;
   }
   .info_stopy{
-    position: absolute;
-    right: 587px;
-    top: 553px;
+    position: relative;
+    left: 557px;
+    top: -401px;
     width: 300px;
     height: 85px;
     font-family: DMSans;
@@ -516,6 +521,7 @@ padding-right: 191px;
 .box_foto{
   display: flex;
   justify-content: space-between;
+  height: 185px;
 }
 .img_podolg{
   width: 492px; 
@@ -532,23 +538,38 @@ padding-right: 191px;
 }
 
 .play_info_podolog{
-  width: 180px;
-    position: relative;
-    bottom: 280px;
-    left: 92px;
+  padding-left: 108px;
+  bottom: -40px;
+  width: 225px;
+  position: relative;
 }
 .play_info_podolog h2{
-  font-family: sans-serif;
-  font-size: 27px;
-  font-weight: 700;
-  line-height: 1.3;
+  font-family: CirceRounded;
+  font-size: 32px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #333;
   padding-bottom: 5px;
 }
+.play_info_podolog p{
+  font-family: DMSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
 .icon_video{
-  width: 36px;
+  width: 32px;
   position: relative;
-  bottom: 363px;
-  left: 226px;
+  bottom: 36px;
+    left: 255px;
 }
 .list_info_video{
   display: flex;
