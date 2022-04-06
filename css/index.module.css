@@ -640,6 +640,612 @@ padding-right: 191px;
 }
 
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px){
+  .main {
+    width: 980px;
+    padding: 0 25px 48px; 
+}
+
+
+.stopa {
+width: 100%;
+height: auto;
+}
+
+.main{
+padding: 0 25px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.img-stopa{
+width: 560px;
+float: right;
+}
+
+.logo{
+width: 100%;
+height: auto;
+}
+
+.box-logo{
+  width: 270px;
+  padding-top: 55px;
+  padding-left: 25px;
+}
+
+.box_icon_odkryj_mnie{
+width: 77px;
+margin: 166px 6px 22px 102px;
+}
+
+.box_3_odnośnik{
+position: relative;
+width: 405px;
+height: 77px;
+top: -101px;
+left: 213px;
+}
+.text_pielegnacje_stop{
+position: relative;
+bottom: 98px;
+left: 10px;
+width: 229px;
+margin: 22px 21px 0 102px;
+font-family: DMSans;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+
+.text-style-1{
+font-family: CirceRounded;
+font-size: 32px;
+font-weight: 800;
+}
+.text-style-2{
+font-size: 21px;
+font-weight: 500;
+}
+
+.string_troska{
+font-family: CirceRounded;
+font-weight: bold;
+}
+.box_4_odnośnik_2{
+position: relative;
+width: 77px;
+left: 816px;
+bottom: 364px; 
+}
+.box_odnosnik_2_infoStopy{
+height: 0;
+}
+.info_stopy{
+position: relative;
+left: 557px;
+top: -401px;
+width: 300px;
+height: 85px;
+font-family: DMSans;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.31;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.string_profer_zabieg{
+width: 795px;
+height: 36px;
+margin: auto;
+font-family: CirceRounded;
+font-size: 32px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.28;
+letter-spacing: normal;
+text-align: center;
+color: #333;
+}
+.box_logo_nappa{
+width: 167px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 20px;
+}
+.box_18_foto_tryptyk{
+margin-left: auto;
+margin-right: auto;
+padding-top: 40px;
+padding-left: 77px;
+}
+
+.box_krok_1_2_3{
+margin: auto;
+justify-content: center;
+padding-top: 20px;
+}
+.box_krok_1_2_3 div{
+display: flex;
+margin: auto;
+justify-content: center;
+}
+.img7_icon{
+width: 51px;
+height: 51px;
+margin: 8px 14.9px 8px 0;
+}
+.img8_icon{
+width: 51px;
+height: 51px;
+margin: 8px 14.9px 8px 0;
+}
+.img9_icon{ 
+ width: 51px;
+height: 51px;
+margin: 8px 14.9px 0 0;
+}
+
+.string_krok_1{
+width: 150.5px;
+height: 27.3px;
+margin: 17px 0 19.7px 14.9px;
+font-family: CirceRounded;
+font-size: 26px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.27;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.string_krok_2{
+width: 150.5px;
+height: 27.3px;
+margin: 17px 0 19.7px 14.9px;
+font-family: CirceRounded;
+font-size: 26px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.27;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.string_krok_3{
+width: 137.1px;
+height: 27.3px;
+margin: 17px 13.4px 11.7px 14.9px;
+font-family: CirceRounded;
+font-size: 26px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.27;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.string_linie_nappy{
+font-family: CirceRounded;
+padding-top: 60px;
+font-size: 32px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.28;
+letter-spacing: normal;
+text-align: center;
+color: #333;
+
+}
+.box_22_ramki_z_produktami{
+height: 412px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 40px;
+}
+
+.box_22_ramki{
+display: flex;
+justify-content: space-between;
+}
+.box_22_ramki img{
+width: 272px;
+height: 411px;
+padding: 0 20px 15px;
+}
+.list_produkt{
+position: relative;
+justify-content: space-between;
+padding-left: 57px;
+padding-right: 57px;
+top: -366px;
+display: flex;
+margin: 0;
+list-style-type: none;
+}
+.produkt-li{
+width: 206px;
+height: 179px;
+margin: 0 0 30px;
+font-family: DMSans;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.list1_produkt{
+width: 206px;
+height: 179px;
+margin: 0 0 30px;
+font-family: DMSans;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.list2_produkt{
+width: 206px;
+height: 179px;
+margin: 0 0 20px;
+font-family: DMSans;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.list3_produkt{
+width: 206px;
+height: 179px;
+margin: 0 0 30px;
+font-family: DMSans;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.43;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+
+.box_produkt_hydro_soft{
+position: relative;
+display: flex;
+justify-content: space-between;
+bottom: 374px;
+padding-left: 117px;
+padding-right: 117px;
+}
+
+.title_stezenie_mocznika{
+font-family: CirceRounded;
+font-size: 32px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.28;
+letter-spacing: normal;
+text-align: center;
+color: #333;
+padding-top: 60px;
+}
+.box_produkt_soft_mocznik{
+display: flex;
+justify-content: center;
+padding-top: 60px;
+height: 250px;
+
+}
+.produkt_soft{
+display: flex;
+
+}
+.produkt_1_soft_mocznik{
+padding-right: 191px;
+}
+
+.produkt_2_soft_mocznik{
+margin-right: auto;
+width: 300px;
+}
+.logo_43{
+position: relative;
+left: 174px;
+bottom: 262px;
+}
+.logo_42{
+position: relative;
+left: 157px;
+bottom: 251px;
+}
+.info_soft_mocznik_42{
+font-family: DMSans;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.31;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+position: relative;
+left: 195px;
+bottom: 299px;
+width: 142px;
+}
+.info_soft_mocznik_43{
+position: relative;
+left: 208px;
+bottom: 313px;
+width: 110px;
+font-family: DMSans;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.31;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+
+}
+
+.icon_dermatologically{
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+width: 98px;
+}
+.soft_mocznik_procent_42{
+font-size: 36px;
+font-weight: 500;
+}
+.soft_mocznik_procent_43{
+font-size: 36px;
+font-weight: 500;
+}
+.title_produkt_nappa{
+font-family: CirceRounded;
+font-size: 32px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.28;
+letter-spacing: normal;
+text-align: center;
+color: #333;
+}
+
+.img_skladniki{
+width: 177px;
+height: 233px;
+}
+
+.box_41_ramki_calosc{
+margin-left: 40px;
+margin-right: 40px;
+}
+.skladniki_aktywne{
+font-family: CirceRounded;
+font-size: 21px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.29;
+letter-spacing: normal;
+text-align: center;
+color: #333;
+margin-top: 10px;
+}
+
+.list_skladniki_aktywne{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+list-style-type: none;
+
+}
+.title_list{
+font-family: CirceRounded;
+font-size: 18px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.28;
+letter-spacing: normal;
+text-align: center;
+color: #333;
+position: relative;
+bottom: 160px;
+}
+.paragraph_list_skladniki{
+position: relative;
+bottom: 146px;
+left: 21px;
+font-weight: 500;
+line-height: 1.3;
+}
+.list_features{
+position: relative;
+bottom: 144px;
+left: 40px;
+font-weight: 500;
+}
+.list_features li::marker{
+color: black;
+}
+.list_skladniki{
+margin: 20px;
+padding-bottom: 25px;
+height: 217px;
+font-family: DMSans;
+}
+
+.box_foto{
+display: flex;
+justify-content: space-between;
+height: 185px;
+}
+.img_podolg{
+width: 492px; 
+}
+.icon_play{
+width: 77px;
+margin: 130px 20px 0px 110px;
+}
+.img_35_odnosnik{
+width: 285px;
+height: 77px;
+margin-top: 130px;
+
+}
+
+.play_info_podolog{
+padding-left: 108px;
+bottom: -40px;
+width: 225px;
+position: relative;
+}
+.play_info_podolog h2{
+font-family: CirceRounded;
+font-size: 32px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1;
+letter-spacing: normal;
+color: #333;
+padding-bottom: 5px;
+}
+.play_info_podolog p{
+font-family: DMSans;
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.31;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+}
+.icon_video{
+width: 32px;
+position: relative;
+bottom: 36px;
+left: 255px;
+}
+.list_info_video{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+list-style-type: none;
+padding-top: 40px;
+}
+.list_video{
+display: flex;
+justify-content: space-between;
+width: 293px;
+cursor: pointer;
+
+font-family: DMSans;
+font-weight: normal;
+}
+.list_video div{
+width: 231px;
+height: 74px;
+margin: 21px;
+
+} 
+.title_video{
+font-family: CirceRounded;
+font-size: 16px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.31;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+width: 231px;
+height: 74px;
+}
+
+.footer_icon_play{
+width: 43px;
+height: 43px;
+padding-top: 20px;
+
+}
+.footer_icon_play_2{
+width: 40px;
+position: relative;
+bottom: 56px;
+left: -45px;
+}
+.img_logo_nappa_male{
+width: 167px;
+height: 44px;
+padding-left: 65px;
+padding-top: 15px;
+}
+
+
+#myVideo {
+position: relative;
+bottom: 28px;
+max-width: 492px;
+/* width: 100%; */
+height: 383px;
+margin: 0 auto;
+}
+.box_info_video{
+height: 0;
+}
+}
+
+
+
+
+
+
+
+
 /* -------------------------------------------------------------------------- */
 
 /* @media screen and (min-width: 680px) {

@@ -325,9 +325,11 @@ oraz nadmiernym rogowaceniem.
     </div>
     
 <div class="img_podolg">
+    <!-- <iframe id="video" width="420" height="315" src="https://youtu.be/3KNkPf17qt8" frameborder="0" allowfullscreen></iframe>
+    <iframe id="video" width="420" height="315" src="//www.youtube.com/embed/9B7te184ZpQ?rel=0" frameborder="0" allowfullscreen></iframe> -->
     
     <video id="myVideo" controls poster="/img/36_foto_podolg.jpg">
-        <source id="mp4" src="./img/36_foto_podolg.png" type="video/mp4">
+        <source id="mp4" src="./img/36_foto_podolg.png" controls="true">
         <source id="webm" src="https://www.uiuxwebdev.com/projects/videoGallery/blossoms.Webm" type="video/webm">
     </video>
    
@@ -358,7 +360,7 @@ oraz nadmiernym rogowaceniem.
 <div class="box_info_video">
 
     <ul class="list_info_video">
-        <li class="list_video" onclick="playVid('one')">
+        <li class="list_video" id="play-video" onclick="playVid('one')">
             
             <img class="footer_icon_play"  src="./img/37_icon_play.png" alt="37_icon_play">
             <div>
