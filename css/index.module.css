@@ -652,8 +652,12 @@ padding-right: 191px;
 
 @media screen and (max-width: 480px){
   .main {
-    width: 980px;
-    padding: 0 25px 48px; 
+    width: 320px;
+    height: 6791px;
+    padding: 0 0 49px;
+    background-color: #fff; 
+    margin-left: auto;
+margin-right: auto;
 }
 
 
@@ -662,15 +666,9 @@ width: 100%;
 height: auto;
 }
 
-.main{
-padding: 0 25px;
-margin-left: auto;
-margin-right: auto;
-
-}
 
 .img-stopa{
-width: 560px;
+width: 245px;
 float: right;
 }
 
@@ -680,38 +678,34 @@ height: auto;
 }
 
 .box-logo{
-  width: 270px;
-  padding-top: 55px;
-  padding-left: 25px;
+  position: relative;
+  width: 140px;
+  top: -203px;
 }
 
 .box_icon_odkryj_mnie{
 width: 77px;
-margin: 166px 6px 22px 102px;
+position: relative;
+    bottom: 105px;
+    height: 0;
 }
 
 .box_3_odnośnik{
-position: relative;
-width: 405px;
-height: 77px;
-top: -101px;
-left: 213px;
+  display: none;
 }
 .text_pielegnacje_stop{
-position: relative;
-bottom: 98px;
-left: 10px;
-width: 229px;
-margin: 22px 21px 0 102px;
-font-family: DMSans;
-font-size: 16px;
-font-weight: normal;
-font-stretch: normal;
-font-style: normal;
-line-height: 1.5;
-letter-spacing: normal;
-text-align: left;
-color: #333;
+  width: 229px;
+  padding: 0px;
+  display: block;
+  font-family: DMSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
 }
 
 .text-style-1{
@@ -727,20 +721,17 @@ font-weight: 500;
 .string_troska{
 font-family: CirceRounded;
 font-weight: bold;
+width: 250px;
+padding-top: 20px;
+    padding-bottom: 20px;
 }
 .box_4_odnośnik_2{
-position: relative;
-width: 77px;
-left: 816px;
-bottom: 364px; 
+  display: none; 
 }
 .box_odnosnik_2_infoStopy{
 height: 0;
 }
 .info_stopy{
-position: relative;
-left: 557px;
-top: -401px;
 width: 300px;
 height: 85px;
 font-family: DMSans;
@@ -754,30 +745,32 @@ text-align: left;
 color: #333;
 }
 .string_profer_zabieg{
-width: 795px;
-height: 36px;
+  padding-top: 90px;
+width: 300px;
+height: 96px;
 margin: auto;
 font-family: CirceRounded;
-font-size: 32px;
+font-size: 24px;
 font-weight: 800;
 font-stretch: normal;
 font-style: normal;
-line-height: 1.28;
+line-height: 1.29;
 letter-spacing: normal;
 text-align: center;
 color: #333;
 }
 .box_logo_nappa{
-width: 167px;
+width: 104px;
 margin-left: auto;
 margin-right: auto;
 padding-top: 20px;
 }
 .box_18_foto_tryptyk{
+  width: 297px;
 margin-left: auto;
 margin-right: auto;
 padding-top: 40px;
-padding-left: 77px;
+
 }
 
 .box_krok_1_2_3{
@@ -851,7 +844,7 @@ color: #333;
 .string_linie_nappy{
 font-family: CirceRounded;
 padding-top: 60px;
-font-size: 32px;
+font-size: 24px;
 font-weight: 800;
 font-stretch: normal;
 font-style: normal;
@@ -870,7 +863,8 @@ padding-top: 40px;
 
 .box_22_ramki{
 display: flex;
-justify-content: space-between;
+flex-wrap: wrap;
+height: 0;
 }
 .box_22_ramki img{
 width: 272px;
@@ -882,8 +876,9 @@ position: relative;
 justify-content: space-between;
 padding-left: 57px;
 padding-right: 57px;
-top: -366px;
+top: 65px;
 display: flex;
+flex-wrap: wrap;
 margin: 0;
 list-style-type: none;
 }
@@ -904,7 +899,7 @@ color: #333;
 .list1_produkt{
 width: 206px;
 height: 179px;
-margin: 0 0 30px;
+margin: 0 0 240px;
 font-family: DMSans;
 font-size: 14px;
 font-weight: normal;
@@ -918,7 +913,7 @@ color: #333;
 .list2_produkt{
 width: 206px;
 height: 179px;
-margin: 0 0 20px;
+margin: 0 0 250px;
 font-family: DMSans;
 font-size: 14px;
 font-weight: normal;
@@ -945,21 +940,23 @@ color: #333;
 }
 
 .box_produkt_hydro_soft{
-position: relative;
+  position: relative;
 display: flex;
-justify-content: space-between;
-bottom: 374px;
+flex-wrap: wrap;
+bottom: 784px;
 padding-left: 117px;
 padding-right: 117px;
 }
 
 .title_stezenie_mocznika{
+  position: relative;
+  top: 820px;
 font-family: CirceRounded;
-font-size: 32px;
+font-size: 24px;
 font-weight: 800;
 font-stretch: normal;
 font-style: normal;
-line-height: 1.28;
+line-height: 1.29;
 letter-spacing: normal;
 text-align: center;
 color: #333;
@@ -967,32 +964,49 @@ padding-top: 60px;
 }
 .box_produkt_soft_mocznik{
 display: flex;
+flex-wrap: wrap;
+padding-top: 850px;
 justify-content: center;
-padding-top: 60px;
 height: 250px;
 
 }
 .produkt_soft{
 display: flex;
+margin-bottom: 300px;
+justify-content: center;
 
 }
+.produkt_hydro_13{
+  margin-bottom: 290px;
+}
 .produkt_1_soft_mocznik{
-padding-right: 191px;
+  margin-right: auto;
+  padding-left: 12px;
 }
 
 .produkt_2_soft_mocznik{
 margin-right: auto;
-width: 300px;
+height: 190px;
+}
+.produkt_smooth_mocznik_30{
+  width: 114px;
+}
+.produkt_soft_mocznik_15{
+  width: 95px;
 }
 .logo_43{
 position: relative;
-left: 174px;
-bottom: 262px;
+left: 119px;
+bottom: 170px;
+width: 191px;
+height: 89px;
 }
 .logo_42{
 position: relative;
-left: 157px;
-bottom: 251px;
+left: 119px;
+bottom: 170px;
+width: 167px;
+height: 89px;
 }
 .info_soft_mocznik_42{
 font-family: DMSans;
@@ -1005,15 +1019,15 @@ letter-spacing: normal;
 text-align: left;
 color: #333;
 position: relative;
-left: 195px;
-bottom: 299px;
+left: 152px;
+    bottom: 206px;
 width: 142px;
 }
 .info_soft_mocznik_43{
 position: relative;
-left: 208px;
-bottom: 313px;
-width: 110px;
+left: 152px;
+    bottom: 206px;
+width: 135px;
 font-family: DMSans;
 font-size: 16px;
 font-weight: normal;
@@ -1031,6 +1045,8 @@ margin-left: auto;
 margin-right: auto;
 margin-top: 25px;
 width: 98px;
+margin-top: 163px;
+margin-bottom: 15px;
 }
 .soft_mocznik_procent_42{
 font-size: 36px;
@@ -1042,7 +1058,7 @@ font-weight: 500;
 }
 .title_produkt_nappa{
 font-family: CirceRounded;
-font-size: 32px;
+font-size: 24px;
 font-weight: 800;
 font-stretch: normal;
 font-style: normal;
@@ -1063,11 +1079,11 @@ margin-right: 40px;
 }
 .skladniki_aktywne{
 font-family: CirceRounded;
-font-size: 21px;
+font-size: 16px;
 font-weight: bold;
 font-stretch: normal;
 font-style: normal;
-line-height: 1.29;
+line-height: 1.25;
 letter-spacing: normal;
 text-align: center;
 color: #333;
@@ -1111,13 +1127,15 @@ font-weight: 500;
 color: black;
 }
 .list_skladniki{
-margin: 20px;
+margin: 10px;
 padding-bottom: 25px;
 height: 217px;
 font-family: DMSans;
+padding-top: 20px;
 }
 
 .box_foto{
+  display: none;
 display: flex;
 justify-content: space-between;
 height: 185px;
@@ -1126,10 +1144,12 @@ height: 185px;
 width: 492px; 
 }
 .icon_play{
+  display: none;
 width: 77px;
 margin: 130px 20px 0px 110px;
 }
 .img_35_odnosnik{
+  display: none;
 width: 285px;
 height: 77px;
 margin-top: 130px;
@@ -1137,14 +1157,16 @@ margin-top: 130px;
 }
 
 .play_info_podolog{
-padding-left: 108px;
-bottom: -40px;
-width: 225px;
-position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  bottom: -63px;
+  width: 225px;
+  position: relative;
 }
 .play_info_podolog h2{
 font-family: CirceRounded;
-font-size: 32px;
+font-size: 24px;
 font-weight: 800;
 font-stretch: normal;
 font-style: normal;
@@ -1161,10 +1183,10 @@ font-stretch: normal;
 font-style: normal;
 line-height: 1.31;
 letter-spacing: normal;
-text-align: left;
 color: #333;
 }
 .icon_video{
+  display: none;
 width: 32px;
 position: relative;
 bottom: 36px;
@@ -1180,9 +1202,10 @@ padding-top: 40px;
 .list_video{
 display: flex;
 justify-content: space-between;
+justify-content: center;
 width: 293px;
 cursor: pointer;
-
+margin-bottom: -11px;
 font-family: DMSans;
 font-weight: normal;
 }
@@ -1202,7 +1225,20 @@ line-height: 1.31;
 letter-spacing: normal;
 text-align: left;
 color: #333;
-width: 231px;
+width: 228px;
+height: 74px;
+}
+.title_video b {
+  font-family: CirceRounded;
+font-size: 16px;
+font-weight: 800;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.31;
+letter-spacing: normal;
+text-align: left;
+color: #333;
+width: 228px;
 height: 74px;
 }
 
@@ -1221,21 +1257,19 @@ left: -45px;
 .img_logo_nappa_male{
 width: 167px;
 height: 44px;
-padding-left: 65px;
-padding-top: 15px;
 }
 
 
 #myVideo {
-position: relative;
-bottom: 28px;
-max-width: 492px;
-/* width: 100%; */
-height: 383px;
-margin: 0 auto;
+  position: relative;
+  bottom: -14px;
+  max-width: 320px;
+  height: 219px;
+  margin: 0 auto;
 }
 .box_info_video{
 height: 0;
+padding-top: 30px;
 }
 }
 
