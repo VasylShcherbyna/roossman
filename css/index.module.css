@@ -1,8 +1,4 @@
-@charset "UTF-8";
-@import url("https://p.typekit.net/p.css?s=1&k=phs7mpa&ht=tk&f=32217.32219.32220&a=104500474&app=typekit&e=css");
-@import url("https://use.typekit.net/phs7mpa.css");
 
-  
   .tk-circe-rounded { font-family: "circe-rounded",sans-serif; 
   }
 html {
@@ -492,6 +488,7 @@ padding-right: 191px;
     flex-wrap: wrap;
     justify-content: center;
     list-style-type: none;
+    margin-bottom: 20px;
     
   }
   .title_list{
@@ -649,6 +646,16 @@ padding-right: 191px;
 }
 .box_info_video{
   height: 0;
+}
+.link_youtube{
+  display: flex;
+  justify-content: space-between;
+  width: 293px;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: #333;
 }
 
 }
@@ -1221,6 +1228,17 @@ margin-bottom: -11px;
 font-family: 'DM Sans', sans-serif;
 font-weight: normal;
 }
+.link_youtube{
+  display: flex;
+  justify-content: space-between;
+  width: 293px;
+  cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: normal;
+  text-decoration: none;
+  color: #333;
+}
+
 .list_video div{
 width: 231px;
 height: 74px;
@@ -1288,86 +1306,8 @@ padding-top: 30px;
 
 
 
+#player{
+  width: 400px;
+  height: 330px;
+}
 
-
-
-
-
-/* -------------------------------------------------------------------------- */
-
-/* @media screen and (min-width: 680px) {
-  .main {
-    width: 768px;
-    padding: 0 25px 48px;
-  }
-}
-@media screen and (min-width: 680px) {
-    width: 436px;
-}
-  .img-stopa {
-    width: 436px;
-}
-.box_icon_odkryj_mnie {
-  margin: 104px 6px 22px 112px;
-  width: 53px;
-}
-.box_3_odnośnik {
-  width: 291px;
-  height: 76px;
-  top: -74px;
-  left: 194px;
-}
-.box_4_odnośnik_2 {
-  width: 77px;
-  left: 617px;
-  bottom: 350px;
-}
-.info_stopy {
-  left: 363px;
-  top: -389px;
-}
-.string_profer_zabieg{
-  font-size: 28px;
-}
-.box_18_foto_tryptyk {
-  width: 650px;
-  padding-left: 50px;
-}
-.box_22_ramki img {
-  width: 216px;
-}
-.list1_produkt {
-  width: 189px;
-  margin: 0 26px 0px -9px;
-}
-.list2_produkt {
-  width: 189px;
-}
-.list3_produkt {
-  width: 186px;
-  margin: 0 -31px 0px 26px;
-}
-.box_produkt_hydro_soft {
-  padding-left: 100px;
-    padding-right: 100px;
-}
-.produkt_2_soft_mocznik {
-  width: 180px;
-}
-.produkt_1_soft_mocznik {
-  width: 180px;
-}
-.info_soft_mocznik_43{
-  bottom: 295px;
-}
-.info_soft_mocznik_42{
-  bottom: 288px;
-}
-.img_35_odnosnik{
-  margin-top: 132px;
-  margin-left: 77px;
-}
-#myVideo{
-  max-width: 386px;
-}
- */
